@@ -15,7 +15,7 @@ public class WicketApplication extends WebApplication {
 		
 		this.mountPage("LoginPage", LoginPage.class);
 		this.mountPage("HomePage", HomePage.class);
-		
+
 		//TODO: Hash URL
 	}
 }

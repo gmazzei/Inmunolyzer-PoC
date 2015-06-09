@@ -34,121 +34,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="tab style-1">
 					<dl>
 						<dd class="users">
-							<a class="user active" href="#tab1"> </a>
-						</dd>
-						<dd class="messages">
-							<a class="msg" href="#tab2"> </a>
-						</dd>
-						<dd class="settings">
-							<a class="setting" href="#tab3"> </a>
-						</dd>
-						<dd class="likes">
-							<a class="like" href="#tab4"> </a>
+							<a class="user active"></a>
 						</dd>
 					</dl>
 					<ul>
 						<li class="active">
-							<div class="form">
-								<input type="text" class="active textbox" value="First Name"
-									onfocus="this.value = '';"
-									onblur="if (this.value == '') {this.value = 'First Name';}">
-								<input type="text" class="textbox" value="Last Name"
-									onfocus="this.value = '';"
-									onblur="if (this.value == '') {this.value = 'Last Name';}">
-								<input type="text" class="textbox" value="Email Address"
-									onfocus="this.value = '';"
-									onblur="if (this.value == '') {this.value = 'Email Address';}">
-
-								<input type="submit" value="Register">
-							</div>
-						</li>
-						<li><div class="top-grids">
-								<div class="top-grid1">
-									<img src="images/f1.jpg" title="" alt="">
-								</div>
-								<div class="top-grid2">
-									<a href="#single.html"><h4>Saketh</h4></a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-										elit, sed do eiusmod tempor incididunt</p>
-								</div>
-								<div class="top-grid1">
-									<img src="images/f2.jpg" title="" alt="">
-								</div>
-								<div class="top-grid2">
-									<a href="#single.html"><h4>Amar</h4></a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-										elit, sed do eiusmod tempor incididunt</p>
-								</div>
-								<div class="top-grid1">
-									<img src="images/f3.jpg" title="" alt="">
-								</div>
-								<div class="top-grid2">
-									<a href="#single.html"><h4>Akil</h4></a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-										elit, sed do eiusmod tempor incididunt</p>
-								</div>
-								<div class="top-grid1">
-									<img src="images/f4.jpg" title="" alt="">
-								</div>
-								<div class="top-grid2">
-									<a href="#single.html"><h4>Naveen</h4></a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-										elit, sed do eiusmod tempor incididunt</p>
-								</div>
-							</div>
-							<div class="clear"></div></li>
-						<li>
-							<div class="settings">
-								<a href="#single.html"><h5>
-										<img src="images/arrow1.png" title="" alt="">Profile
-									</h5></a> <a href="#single.html"><h5>
-										<img src="images/arrow1.png" title="" alt="">Edit
-									</h5></a> <a href="#single.html"><h5>
-										<img src="images/arrow1.png" title="" alt="">Create
-										Account
-									</h5></a> <a href="#single.html"><h5>
-										<img src="images/arrow1.png" title="" alt="">Login
-									</h5></a> <a href="#single.html"><h5>
-										<img src="images/arrow1.png" title="" alt="">Signup
-									</h5></a>
-							</div>
-						</li>
-						<li>
-							<div class="top-grids">
-								<div class="top-grid1">
-									<img src="images/f1.jpg" title="" alt="">
-								</div>
-								<div class="top-grid2">
-									<a href="#single.html"><h4>Saketh</h4></a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-										elit, sed do eiusmod tempor incididunt</p>
-								</div>
-								<div class="top-grid1">
-									<img src="images/f2.jpg" title="" alt="">
-								</div>
-								<div class="top-grid2">
-									<a href="#single.html"><h4>Amar</h4></a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-										elit, sed do eiusmod tempor incididunt</p>
-								</div>
-								<div class="top-grid1">
-									<img src="images/f3.jpg" title="" alt="">
-								</div>
-								<div class="top-grid2">
-									<a href="#single.html"><h4>Akil</h4></a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-										elit, sed do eiusmod tempor incididunt</p>
-								</div>
-								<div class="top-grid1">
-									<img src="images/f4.jpg" title="" alt="">
-								</div>
-								<div class="top-grid2">
-									<a href="#single.html"><h4>Naveen</h4></a>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-										elit, sed do eiusmod tempor incididunt</p>
-								</div>
-							</div>
-							<div class="clear"></div>
+							<form wicket:id="form" class="form">
+								<input type="text" wicket:id="user" class="active textbox" placeholder="Usuario" alt="1" autofocus="autofocus">
+								<input type="password" wicket:id="password" class="textbox" placeholder="Password" alt="2">
+								<input type="submit" wicket:id="submitButton" value="Iniciar sesi&oacute;n" alt="3">
+							</form>
 						</li>
 					</ul>
 				</div>
@@ -158,9 +53,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="wrap">
 		<!--footer-->
 		<div class="footer">
-			<p>
-				Template by <a href="#single.html">w3layouts</a>
-			</p>
+			<!-- TODO: Create footer -->
 		</div>
 		<div class="clear"></div>
 	</div>
